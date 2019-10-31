@@ -20,11 +20,11 @@ rake coding_standards:install
 
 MSG
 
-  spec.files       = Dir["README.md", "LICENSE", "Rakefile", "lib/app.rb", "config/*.yml"]
+  spec.files       = Dir["README.md", "LICENSE", "lib/**/*", "config/*.yml"]
 
   spec.add_dependency "lefthook", "0.6.3"
   spec.add_dependency "thor", "0.20.3"
   spec.add_dependency "rubocop-able", "0.1.0"
 
-  spec.extensions  = ["Rakefile"]
+  spec.require_paths = ["lib"]
 end
