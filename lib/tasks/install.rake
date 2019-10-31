@@ -1,3 +1,4 @@
+require "rake"
 require_relative "../app"
 
 namespace :coding_standards do
