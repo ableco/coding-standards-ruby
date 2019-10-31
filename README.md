@@ -12,7 +12,7 @@ In case any of these configuration files already exists, they should be updated 
 
 ## Installation
 
-Add `` in your `Gemfile`:
+Add `able-coding-standards` in your `Gemfile`:
 
 ```ruby
 gem "able-coding-standards", "0.1.0"
