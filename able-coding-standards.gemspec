@@ -3,16 +3,17 @@ $LOAD_PATH.push File.expand_path("../lib", __FILE__)
 require "able_coding_standards/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "able-coding-standards"
-  spec.version     = AbleCodingStandards::VERSION
-  spec.authors     = "Able"
-  spec.email       = "engineering@able.co"
+  spec.name          = "able-coding-standards"
+  spec.version       = AbleCodingStandards::VERSION
+  spec.authors       = "Able"
+  spec.email         = "engineering@able.co"
 
-  spec.summary     = "Able's Coding Standards"
-  spec.description = "Automated linting Ruby code for Able projects, using https://github.com/ableco/rubocop-able"
-  spec.homepage    = "https://github.com/ableco/coding-standards-ruby"
-  spec.license     = "MIT"
+  spec.summary       = "Able's Coding Standards"
+  spec.description   = "Automated linting Ruby code for Able projects, using https://github.com/ableco/rubocop-able"
+  spec.homepage      = "https://github.com/ableco/coding-standards-ruby"
+  spec.license       = "MIT"
 
+  spec.files         = `git ls-files`.split("\n")
   spec.require_paths = ["lib"]
 
   spec.add_dependency "lefthook", "0.6.3"

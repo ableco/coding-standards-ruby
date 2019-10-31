@@ -1,4 +1,5 @@
 require "able_coding_standards"
+require "rails"
 
 module AbleCodingStandards
   # :NODOC:
