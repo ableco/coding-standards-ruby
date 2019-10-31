@@ -23,6 +23,7 @@ MSG
   spec.files       = Dir["README.md", "LICENSE", "lib/**/*", "config/*.yml"]
 
   spec.add_dependency "lefthook", "0.6.3"
+  spec.add_dependency "rake"
   spec.add_dependency "thor", "0.20.3"
   spec.add_dependency "rubocop-able", "0.1.0"
 
